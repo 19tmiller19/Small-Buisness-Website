@@ -1,0 +1,40 @@
+.review-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .review-container h1{
+    font-weight: 600;
+    color:#374151;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .review-card {
+    background-color: #f5f5f5;
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: calc(33.33% - 1rem); /* Adjust for 3 or 4 cards per row */
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .review-text {
+    font-size: 0.8rem;
+  }
