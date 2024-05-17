@@ -1,0 +1,25 @@
+.map-container{
+    background-color: #374151;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+ 
+}
+.map-container p{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+}
+.map-container hr{
+    margin-top: 8px;
+    margin-bottom: -20px;
+    border: 2px solid #fff;
+}
